@@ -24,8 +24,8 @@ UPWIND_MAX_SPEED = 13       # Maximum speed for upwind (knots)
 MA_WINDOW = 4               # Number of samples for moving average
 
 # File paths
-INPUT_FILE = '/mnt/user-data/uploads/1764753121610_2025-03-09_Yandoo.csv'
-OUTPUT_FILE = '/mnt/user-data/outputs/Yandoo_processed.csv'
+INPUT_FILE = 'data/raw/2025-03-09 Yandoo.csv'
+OUTPUT_FILE = 'data/processed/Yandoo_processed.csv'
 
 # ============================================================================
 # HELPER FUNCTIONS

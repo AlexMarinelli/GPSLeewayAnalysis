@@ -28,8 +28,8 @@ import os
 # ============================================================================
 
 # Data Files
-RAW_DATA_FILE_1 = 'files/2025-03-09 Yandoo.csv'
-RAW_DATA_FILE_2 = 'files/2025-03-09 Lazarus Capital Partners.csv'  # Set to path for second dataset or None
+RAW_DATA_FILE_1 = 'data/raw/2025-03-09 Yandoo.csv'
+RAW_DATA_FILE_2 = 'data/raw/2025-03-09 Lazarus Capital Partners.csv'  # Set to path for second dataset or None
 
 # Time Window (AEDT)
 DATE_STR = "2025-03-09"
@@ -49,7 +49,7 @@ MA_WINDOW = 4           # Moving average window
 LAG_SECONDS = 1         # Lag for leeway analysis
 
 # Output Directory
-OUTPUT_DIR = 'outputs'
+OUTPUT_DIR = 'data/processed'
 
 # ============================================================================
 # PREPROCESSING FUNCTIONS

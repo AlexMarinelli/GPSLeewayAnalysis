@@ -14,14 +14,14 @@ All configuration is in one place for easy access.
 
 # Path to raw CSV file from boat instruments
 # Format: /path/to/your/file.csv
-RAW_DATA_FILE_1 = '/mnt/user-data/uploads/1764753121610_2025-03-09_Yandoo.csv'
+RAW_DATA_FILE_1 = 'data/raw/2025-03-09 Yandoo.csv'
 
 # Optional: Add a second dataset for comparison
 # Set to None if you only have one dataset
-RAW_DATA_FILE_2 = None
+RAW_DATA_FILE_2 = 'data/raw/2025-03-09 Lazarus Capital Partners.csv'
 
 # Output directory for processed files and charts
-OUTPUT_DIR = '/mnt/user-data/outputs'
+OUTPUT_DIR = 'data/processed'
 
 # ============================================================================
 # TIME WINDOW
